@@ -1,0 +1,48 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  content: center;
+}
+.answersButtonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.answerButtonContainer{
+  display: flex;
+  padding: 20,20,20,20;
+  margin: 4,4,4,4;
+  align-items: center;
+  justify-content: center;
+}
+.circleContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  content: center;
+}
+#circle {
+  margin: 10,0,0,10;
+  width: 15px;
+  height: 15px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+.circleBackGroundFill{
+  background: #0D7BAB 100%;
+}
+.circleBackGround{
+  background: #C9CFD3 100%;
+}
+.RightBorderColor{
+  border-color: #33C933 100%
+}
+.WrongBorderColor{
+  border-color: #FB4343 100%
+}
