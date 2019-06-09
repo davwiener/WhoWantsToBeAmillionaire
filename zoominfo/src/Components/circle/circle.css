@@ -1,0 +1,14 @@
+.circleBackGroundFill {
+  background: #0d7bab 100%;
+}
+.circleBackGround {
+  background: #C9CFD3 ;
+}
+.circle {
+  margin: 10px;
+  width: 15px;
+  height: 15px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}

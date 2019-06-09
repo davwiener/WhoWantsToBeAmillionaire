@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  content: center;
+}
+.circleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  content: center;
+}
+.middleContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  content: center;
+}
+.topContainer {
+  position: static;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.imgBGRotate {
+  display: flex;
+  transform: rotate(180deg);
+  position: absolute;
+  z-index: 2;
+}
+.zoominfo {
+  display: flex;
+  position: absolute;
+  z-index: 3;
+  padding-top: 20px;
+}
+.bottomContainer {
+  position: static;
+  display: flex;
+  justify-content: center;
+}
+.imgBG {
+  display: flex;
+  bottom: 0;
+}
+.qustionClass {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.qNumclass {
+  font-family: "OpenSans-Bold";
+  color: #0d7bab;
+}
+.qClass {
+  font-family: "OpenSans";
+  color: #223336;
+  margin-left: 8px;
+}
+.okButton {
+  border-radius: 100px;
+  width: 375px;
+  height: 69px;
+  margin: 15px;
+  color: #FFFFFF;
+}
+button.onOkEnabeld {
+  background-color: #ff8f48;
+}
+button.onOkDissabeld {
+  background-color: #f0f0f0;
+}
+.okButton:not(.isHover):hover {
+  background-color: #f68034;
+}

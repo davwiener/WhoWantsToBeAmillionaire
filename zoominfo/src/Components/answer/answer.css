@@ -1,0 +1,80 @@
+.divContainer {
+  transition: border-color 0.5s;
+  width: 560px;
+  margin: 15px;
+}
+.divAnswerButtonConainer h1 {
+  margin-right: 45px;
+  word-wrap: break-word;
+  flex: 9;
+  font-family: "OpenSans-Semibold";
+  word-break: break-all;
+  white-space: normal;
+}
+.divAnswerButtonConainer {
+  white-space: nowrap;
+  width: 100%;
+  border-radius: 20px;
+  outline: none;
+  height: 146px;
+  /* flex-grow: 0; */
+}
+.answerButtonContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  word-wrap: break-word;
+}
+
+.divAnswerButtonConainer:not(.isHover):hover {
+  border: 4px solid darkblue;
+}
+
+button.bSelected {
+  border: 4px solid #0d7bab;
+  transition: border 0.5s;
+}
+button.bRightColor {
+  border: 4px solid#33C933;
+  transition: border 0.5s;
+}
+button.bWrongColor {
+  border: 4px solid #fb4343;
+  transition: border 0.5s;
+}
+
+button.bRegular {
+  border: 4px solid #fafafa;
+  transition: border 0.5s;
+}
+h1.hSelected {
+  color: #0d7bab;
+  transition: color 0.5s;
+}
+h1.hRightColor {
+  color: #33c933;
+  transition: color 0.5s;
+}
+h1.hWrongColor {
+  color: #fb4343;
+  transition: color 0.5s;
+}
+h1.hRegular {
+  color: #496472;
+  transition: color 0.5s;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+.indicator {
+  animation: fade-in 0.5s;
+  opacity: 1;
+}
+
+div.indicator-wrap {
+  flex: 1;
+  flex-basis: 70px;
+}
